@@ -3,6 +3,8 @@
 /vendor_image           emmc    /dev/block/mapper/vendor       flags=display="Vendor image";flashimg=1;backup=1
 /product_image          emmc    /dev/block/mapper/product      flags=display="Product image";flashimg=1;backup=1
 /odm_image              emmc    /dev/block/mapper/odm          flags=display="Odm image";flashimg=1;backup=1
+/system_ext             ext4    /dev/block/mapper/system_ext          flags=display="System_ext image";flashimg=1;backup=1
+
 
 # Partitions
 /data            f2fs      /dev/block/by-name/userdata      flags=fileencryption=aes-256-xts:aes-256-cts:v1
