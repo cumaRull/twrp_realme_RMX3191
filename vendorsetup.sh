@@ -46,7 +46,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 	# Alternate Codenames
 	export TARGET_DEVICE_ALT="RMX3191,rmx3191"
-
+        export FOX_TARGET_DEVICES="RMX3191,rmx3191"
 	export OF_USE_GREEN_LED=0
 	export OF_HIDE_NOTCH=1
 	export OF_USE_MAGISKBOOT=1
