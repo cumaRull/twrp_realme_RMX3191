@@ -27,7 +27,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_DEVICE := RMX3191
 PRODUCT_NAME := twrp_RMX3191
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3191
+PRODUCT_MODEL := Realme c25
 PRODUCT_MANUFACTURER := realme
 
 # Dynamic
